@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
+
 int snakeWaterGun(char you, char comp){
     // returns 1 if you win, -1 if you lose and 0 if draw
     // Condition for draw--->
@@ -38,6 +39,7 @@ int snakeWaterGun(char you, char comp){
     }
 
 }
+
 void main()
 {
     char you, comp;
